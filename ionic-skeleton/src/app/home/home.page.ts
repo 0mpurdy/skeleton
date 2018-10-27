@@ -10,7 +10,7 @@ import { Subject } from 'rxjs';
 })
 export class HomePage implements OnInit {
 
-  private homeForm: FormGroup;
+  public homeForm: FormGroup;
   private disableEmail: Subject<boolean>;
 
   constructor(private fb: FormBuilder) { }

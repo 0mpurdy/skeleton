@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+
+  <form [formGroup]="homeForm">
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input formControlName='email'></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Not Email</ion-label>
+      <ion-input formControlName='notEmail'></ion-input>
+    </ion-item>
+  </form>
+</ion-content>
